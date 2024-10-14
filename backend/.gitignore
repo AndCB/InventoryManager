@@ -1,0 +1,59 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+.vscode/
+*.user
+*.rsuser
+*.suo
+
+# Ignore logs
+*.log
+
+# Ignore build-related directories and files
+/Debug/
+/Release/
+/dist/
+/out/
+
+# Ignore NuGet packages and lock files
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+*.lock.json
+
+*.testlog
+
+# Ignore IDE-specific files
+/.vs/
+.vscode/
+
+# Ignore .NET user secrets
+secrets.json
+
+# Ignore published output
+publish/
+*.publishsettings
+
+# Ignore temporary and backup files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Ignore Recycle Bin folder on Windows
+$RECYCLE.BIN/
+
+# Ignore other system files
+.DS_Store
+Thumbs.db
+
+# Ignore by extension
+*.dll
+*.exe
+*.pdb
+*.obj
+*.dll.config
+*.db
