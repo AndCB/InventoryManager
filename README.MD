@@ -10,10 +10,8 @@ The API allows you to perform CRUD operations on inventory items, including fetc
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
-- [API Endpoints](#api-endpoints)
+- [API Documentation](#api-documentation)
 - [Running Unit Tests](#running-unit-tests)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -231,7 +229,7 @@ The project uses Swagger for documenting the API.
 1.  Start the API by running `dotnet run` from the `backend` folder.
 2.  Navigate to `http:\\localhost:PORT/swagger` to explore and interact with the API.
 
-## Running tests
+## Running Unit Tests
 
 The project includes tests for the backend using xunit and Moq for mocking the repository dependencies.
 
